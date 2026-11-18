@@ -1,0 +1,23 @@
+# AI assistant files (keep these private, never commit)
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+
+# Windows and Mac junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+
+# Node (only used for running tests, nothing to install)
+node_modules/
+npm-debug.log*
+
+# Logs and secrets
+*.log
+.env
+
+# Note: do NOT ignore vendor/ or tests/fixtures/. Those must be committed.
