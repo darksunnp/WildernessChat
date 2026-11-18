@@ -1,6 +1,8 @@
 const paste = document.getElementById("paste");
 const offerBtn = document.getElementById("offerBtn");
 const logBox = document.getElementById("log");
+const answerBtn = document.getElementById("answerBtn")
+const acceptBtn = document.getElementById("acceptBtn")
 
 function log(text){
     const line = document.createElement("div");
@@ -10,4 +12,10 @@ function log(text){
 
 offerBtn.addEventListener("click",function() {
     log("Offer button clicked");
+})
+answerBtn.addEventListener("click",function() {
+    log("Create answer button clicked");
+})
+acceptBtn.addEventListener("click",function() {
+    log("Accept answer button clicked");
 })
